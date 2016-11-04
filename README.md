@@ -7,7 +7,7 @@ Aplicacion web utilizando Node.js, Express.js, Mongodb. Para postear tweets. uti
 
 ### instalación de dependencia 
 ###Clone
-git@github.com:rtc-io/rtc-signaller-socket.io.git
+git@github.com:JooseNavarro/crud-nodejs-mongodb.git
 Ejecute `npm install` para instalar toda las dependencia
 `nodemon`
 
