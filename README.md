@@ -7,11 +7,11 @@ Aplicacion web utilizando Node.js, Express.js, Mongodb. Para postear tweets
 ### instalación de dependencia 
 ###Clone
 ```
-git@github.com:JooseNavarro/crud-nodejs-mongodb.git
-Ejecute npm install para instalar toda las dependencia
-nodemon
+git clone git@github.com:JooseNavarro/crud-nodejs-mongodb.git
+Ejecute "npm install" para instalar todas las dependencia
+Para ejecuar => "nodemon"
 
-utiliza postman
+Utiliza postman
 
 ```
 #### Start
