@@ -3,14 +3,16 @@
 # Node Clon De Twitter
 
 ## Description
-Aplicacion web utilizando Node.js, Express.js, Mongodb. Para postear tweets. utiliza `postman`
-
+Aplicacion web utilizando Node.js, Express.js, Mongodb. Para postear tweets
 ### instalación de dependencia 
 ###Clone
 ```
 git@github.com:JooseNavarro/crud-nodejs-mongodb.git
-Ejecute `npm install` para instalar toda las dependencia
+Ejecute npm install para instalar toda las dependencia
 nodemon
+
+utiliza postman
+
 ```
 #### Start
 
