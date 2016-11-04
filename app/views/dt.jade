@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    br
+    .container
+      .row
+       .col-md-8.no-float
+         form(method="post" action="")
+          .form-group.row
+            .col-xs-12
+              label.col-xs-2.col-form-label(for='example-text-input') Twitter
+              input#example-text-input.form-control(type="hidden" name="country" value="Norway")
+              input.btn.btn-primary(type="submit" value="Twittear" , style=" margin-top: 1em;")

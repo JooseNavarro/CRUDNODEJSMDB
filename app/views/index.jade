@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  br
+  .container
+    .row
+     .col-md-8.no-float
+       form(method="post")
+        .form-group.row
+          .col-xs-12
+            label.col-xs-2.col-form-label(for='example-text-input') Twitter
+            input#example-text-input.form-control(type='text', name="nombre", value='@')
+         textarea.form-control(rows='3',  name="texto", style="margin-top:5m", placeholder="Que estas pensando?")
+        input.btn.btn-primary(type="submit" value="Twittear" , style=" margin-top: 1em;")
+
+   .container
+     .row
+     - for(var i = 0; i < collection.length; i++){
+      .col-md-4
+        .card.card-inverse(style='background-color: #333; border-color: #333; margin-top:1em; height: 13em;')
+          .card-block
+            h3.card-title #{collection[i].nombre}
+            p.card-text #{collection[i].texto.substr(0,100)}...
+            a.btn.btn-primary(href='#') Leer!
+            a.btn.btn-primary(href='/dt') Eliminar
+        - }
