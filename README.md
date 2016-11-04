@@ -6,8 +6,10 @@
 Aplicacion web utilizando Node.js, Express.js, Mongodb. Para postear tweets. utiliza `postman`
 
 ### instalación de dependencia 
-
+###Clone
+git@github.com:rtc-io/rtc-signaller-socket.io.git
 Ejecute `npm install` para instalar toda las dependencia
+`nodemon`
 
 #### Start
 
