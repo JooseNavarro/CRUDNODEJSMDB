@@ -1,9 +1,9 @@
 # CRUD NODEJS Y MONGODB
 
-# Node API Twitter
+# Node Clon De Twitter
 
 ## Description
-Aplicacion web utilizando Node.js, Express.js, Mongodb
+Aplicacion web utilizando Node.js, Express.js, Mongodb. Para postear tweets. utiliza `postman`
 
 ### instalación de dependencia 
 
@@ -11,7 +11,7 @@ Ejecute `npm install` para instalar toda las dependencia
 
 #### Start
 
-Ejecute ` nodemon` el server se ejecuta en (http://localhost:8080) Si te gusta puedes modificar el puerto `PORT=8080`.
+Ejecute ` nodemon` para correr la aplicacion el server se ejecutara en `http://localhost:8080` Si te gusta puedes modificar el puerto index.js `PORT=8080`.
 
 ## contribuye
 
